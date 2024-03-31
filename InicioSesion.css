@@ -1,0 +1,94 @@
+.menu{
+    background: #000;
+    border-radius: 10px;
+    display: flex;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    width: 80px;
+    border: solid 5px white;
+    display: inline-block;
+    border-radius: 100px;
+    margin-left: 80px;
+}
+
+.nav{
+    position: absolute;
+    left: 38%;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.nav li:hover .a{
+    color: red;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.iniciar li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.iniciar li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    position: absolute;
+    right: 30px;
+}
+
+.iniciar li:hover a{
+    color: red;
+}
+
+.subnav{
+    display: none;
+    position: absolute;
+    background: #000;
+    border-radius: 10px;
+    width: 130px;
+    left: 40%;
+}
+
+.subnav li a{
+    color: white;
+}
+
+.subnav li:hover a{
+    color: red;
+}
+
+.subnav li{
+    padding: 15px;
+    margin: 0px;
+}
+
+.nav li:hover .subnav{
+    display: block;
+}
+
+.formulario{
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    left: 20%;
+}
+
+.formulario input{
+    display: inline-block;
+}

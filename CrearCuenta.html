@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta / ProjectMovies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <ul class="nav">
+            <li><a href="index.html" class="a"><button>Inicio</button></a></li>
+            <li><a href="Peliculas.html" class="a"><button>Peliculas</button></a>
+                <ul class="subnav">
+                    <li><a href="PeliAccion.html"><button>Accion</button></a></li>
+                    <li><a href="PeliComedia.html"><button>Comedia</button></a></li>
+                    <li><a href="PeliDrama.html"><button>Drama</button></a></li>
+                    <li><a href="PeliTerror.html"><button>Terror</button></a></li>
+                </ul>
+            </li>
+            <li><a href="Series.html" class="a"><button>Series</button></a>
+                <ul class="subnav">
+                    <li><a href="SerAccion.html"><button>Accion</button></a></li>
+                    <li><a href="SerComedia.html"><button>Comedia</button></a></li>
+                    <li><a href="SerDrama.html"><button>Drama</button></a></li>
+                    <li><a href="SerTerror.html"><button>Terror</button></a></li>
+                </ul>
+            </li>
+        </ul>
+        <img src="IMG/Project movies (1).png" alt="" class="img">
+        <p class="logo">
+            ProjectMovies
+        </p>
+        <ul class="iniciar">
+            <li><a href="InicioSesion.html"><button>Iniciar sesión</button></a></li>
+        </ul>
+    </div><br><br><br>
+
+
+    <form action="/PHP/CrearCuenta.php" method="post" class="formulario">
+        <label for="">Nombre</label>
+        <input type="text" name="nombre" placeholder="Crea un Nombre">
+        <br><br>
+        <label for="">Correo</label>
+        <input type="email" name="correo" id="" placeholder="Escribe tu Correo">
+        <br><br>
+        <label for="">Contraseña</label>
+        <input type="password" name="contraseña" id="" placeholder="Crea una Contraseña">
+        <br><br>
+        <label for="">Confirmar contraseña</label>
+        <input type="password" name="" id="" placeholder="Confirmar contraseña">
+        <br><br>
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar">
+        <br><br>
+        <label for="">¿Ya tienes una cuenta?</label>
+        <a href="InicioSesion.html">¡Inicia sesión!</a>
+    </form>
+</body><br><br><br>
+
+</html>
